@@ -14,5 +14,11 @@ function control(word) {
 }
 //controllo se funziona la funzione
 //console.log(control("anna"));
+//Aggiungo un output per far sapere se la parola è palindroma o no 
+if (control(word)) {
+    alert(`La parola è palindroma!`);
+} else {
+    alert(`La parola non è palindroma.`);
+}
 
 
