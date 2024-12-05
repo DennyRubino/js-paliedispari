@@ -17,6 +17,14 @@ console.log(cpu)
 function sum(num1, num2) {
     return num1 + num2;
 }
+//Sommo i risultati con la funzione creata
+const totalNumb = sum(player, cpu);
+console.log(`Somma dei numeri: ${totalNumb}`);
+
+
+
+
+
 
 
 
