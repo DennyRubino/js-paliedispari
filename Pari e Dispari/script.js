@@ -13,6 +13,14 @@ const player = Number(prompt('Inserisci un numero da 1 a 5'));
 const cpu = Math.floor(Math.random() * 5) + 1;
 //controllo il risultato
 console.log(cpu)
+//Creò la funziona per sommare i numeri del player e della cpu
+function sum(num1, num2) {
+    return num1 + num2;
+}
+
+
+
+
 
 
 
