@@ -9,5 +9,14 @@
 const evenOrOdd = prompt('Scegli: "pari" o "dispari"');
 //faccio decidere al giocatore un numero tra da 1 a 5
 const player = Number(prompt('Inserisci un numero da 1 a 5'));
+//genero un numero da 1 a 5 per la cpu 
+const cpu = Math.floor(Math.random() * 5) + 1;
+//controllo il risultato
+console.log(cpu)
+
+
+
+
+
 
 
