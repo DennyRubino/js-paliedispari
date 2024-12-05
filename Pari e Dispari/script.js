@@ -20,6 +20,16 @@ function sum(num1, num2) {
 //Sommo i risultati con la funzione creata
 const totalNumb = sum(player, cpu);
 console.log(`Somma dei numeri: ${totalNumb}`);
+//Faccio il controllo per vedere se il numero è pari o dispari
+const isEven = totalNumb % 2 === 0;
+
+//Aggoingo la dichiarazione di vincita o perdita
+if (isEven === 0) {
+    alert("Hai vinto!");
+} else {
+    alert("Hai perso!");
+}
+
 
 
 
